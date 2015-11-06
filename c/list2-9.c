@@ -16,10 +16,10 @@ int main(void)
       {
         break;
       }
-      if (n == i)
-      {
-        printf("%d\n", n);
-      }
+    }
+    if (n == i)
+    {
+      printf("%d\n", n);
     }
   }
 
