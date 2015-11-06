@@ -1,5 +1,6 @@
 //1,000までの素数を列挙する list2-9の最適化
 //素数：1より大きい自然数で、1とその数自身以外のどのような自然数でも割り切れない数
+//計算数14622回
 
 #include<stdio.h>
 
@@ -34,7 +35,7 @@ int main(void)
     printf("%d\n", prime[i]);
   }
 
-  printf("除算の回数：%lu\n", counter);
+  printf("除算の回数：%lu\n", counter);   //-> 14622回
 
   return 0;
 }
