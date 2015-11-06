@@ -1,4 +1,5 @@
 //1,000までの素数を列挙する
+//計算数 78022回
 
 #include<stdio.h>
 
@@ -23,7 +24,7 @@ int main(void)
     }
   }
 
-  printf("除算の回数：%lu\n", counter);
+  printf("除算の回数：%lu\n", counter);   //-> 78022回
 
   return 0;
 }
